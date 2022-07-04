@@ -1,0 +1,363 @@
+@media screen and (max-width: 1199px) {
+  .container,
+  .Header {
+    max-width: 960px;
+  }
+  .Portfolio__images--container {
+    height: 812.375px;
+  }
+  .Intro__title {
+    font-size: 48px;
+  }
+  :root {
+    --slide-width: 450;
+  }
+  .Testimonials__content--wrapper {
+    left: 25px;
+  }
+  .Services__content{
+    max-width: 50%;
+  }
+  .title, h3{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  :root {
+    --slide-width: 500;
+  }
+  .container,
+  .Header {
+    max-width: 720px;
+  }
+  .Header {
+    padding: 15px 0;
+  }
+  .Navbar {
+    display: none;
+  }
+  .Navbar__toggler {
+    display: flex;
+  }
+  #home {
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #home .Header {
+    margin-top: 150px;
+  }
+
+  .Intro__title {
+    font-size: 60px;
+  }
+  .Intro__input {
+    margin-top: 60px;
+  }
+  .Header__content .main-btn {
+    position: absolute;
+    right: 7%;
+    height: 40px;
+    line-height: 36px;
+    font-size: 13px;
+  }
+  .Header__image {
+    position: relative;
+    width: 720px;
+    margin: 0 auto;
+  }
+  .Intro {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .Tab__content--active {
+    flex-direction: column;
+    align-items: unset;
+  }
+  .Services__content{
+    max-width: calc(200%/3);
+    text-align: center;
+  }
+  .Tab__content > div {
+    max-width: 100%;
+  }
+  .progress__chart {
+    height: 100px;
+    width: 100px;
+  }
+  .Exp__title {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    font-size: 32px;
+  }
+  .Exp__title h4 {
+    font-size: 32px;
+  }
+  .nav-item a i{
+    font-size: 40px;
+  }
+  .title, h3{
+    padding: 0 10px;
+    font-size: 32px;
+    text-align: center;
+  }
+  .Info__item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Info__item--content {
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%;
+  }
+  .Info__item--content:nth-child(2) {
+    border: none;
+  }
+  .Portfolio__images--container {
+    height: 1481.33px;
+    flex-direction: column;
+  }
+  .Portfolio__images--container.toggle>.Portfolio__image{
+    flex: 0 0 50%;
+  }
+  .Portfolio__image {
+    flex: 0 0 20%;
+    max-width: 50%;
+  }
+  .Pricing__options {
+    flex-direction: column;
+  }
+  .Option {
+    flex: 0 0 58.333333%;
+    width: 58.333333%;
+  }
+  .Testimonials .container {
+    flex-direction: column;
+    align-items: unset;
+  }
+  .Testimonials__content {
+    flex: 0 0 1;
+    max-width: 100%;
+  }
+  .Blog__content {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .Blog__content--item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .Contact__info--item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    height: 80px;
+  }
+
+  .Footer__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .Socials {
+    justify-content: flex-start;
+  }
+  .Socials li {
+    margin: 0 20px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+  .Header {
+    max-width: 540px;
+  }
+  .Header__content .main-btn {
+    height: 40px;
+    line-height: 36px;
+    font-size: 13px;
+    padding: 0 20px;
+  }
+  .title, h3{
+    font-size: 32px;
+  }
+  .welcome, h6{
+    font-size: 16px;
+  }
+  .Intro__title {
+    font-size: 34px;
+  }
+  .Intro__input {
+    margin-top: 60px;
+  }
+  .Intro__input .main-btn {
+    height: 50px;
+    line-height: 46px;
+  }
+  .Header__image {
+    width: 540px;
+  }
+  .Info__item {
+    align-items: flex-start;
+  }
+  .Info__item--content {
+    flex: 0 0 1;
+    max-width: 100%;
+  }
+  .Portfolio__menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu {
+    flex: 0 0 1;
+    max-width: 100%;
+  }
+  .menu ul li {
+    margin: 10px 15px 0;
+  }
+  .nav-item a i{
+    font-size: 28px;
+  }
+  .Portfolio__images--container {
+    height: 1101.88px;
+  }
+  .Testimonials__content--wrapper {
+    margin-left: 0;
+  }
+  .Brand__container {
+    flex-wrap: wrap;
+  }
+  .Brand__logo {
+    width: 50%;
+  }
+  .Brand__logo:first-child,.Brand__logo:last-child{
+    justify-content: center;
+  }
+  .Blog__content--item {
+    flex: 0 0 calc(200% / 3);
+    max-width: calc(200% / 3);
+  }
+  
+  .Contact__info--item {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .Contact__form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Contact__input {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .About__content:last-child {
+    padding: 0;
+  }
+  .Counter {
+    padding: 0;
+  }
+  .Counter-count,
+  .count_Number {
+    font-size: 32px;
+  }
+  .nav-item a {
+    padding: 17px 10px;
+    font-size: 14px;
+  }
+  .nav-item a img {
+    width: 28px;
+    height: 28px;
+  }
+}
+@media screen and (max-width: 576px) {
+  :root {
+    --slide-width: 100%;
+  }
+  .Header__content .main-btn {
+    display: none;
+  }
+  .Header {
+    padding: 10px 15px;
+  }
+  .Header__image {
+    width: 100%;
+  }
+  .Intro__title {
+    font-size: 28px;
+  }
+  .Intro__input .main-btn {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .About__content--counter {
+    flex-direction: column;
+  }
+  .About__content {
+    flex: 0 0 100%;
+    max-width: 100% !important;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .Counter-count,
+  .count_Number {
+    font-size: 48px;
+  }
+  .Services__content {
+    max-width: 100%;
+  }
+  .Exp__title h4 {
+    font-size: 24px;
+  }
+  .Exp__title {
+    max-width: 100%;
+  }
+  .menu ul {
+    justify-content: center;
+  }
+  .Portfolio__images--container {
+    height: max-content;
+    max-height: 100%;
+    display: block;
+  }
+  .Portfolio__image {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+  .Option {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .Blog__content--item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .Footer {
+    flex-direction: column;
+  }
+  .Footer__item {
+    max-width: 100%;
+    width: 100%;
+  }
+  .Copyright {
+    text-align: center;
+  }
+  .Testimonials__content--wrapper {
+    height: max-content;
+  }
+  .Testimonials__list--item > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .review {
+    padding: 15px 0 0 100px;
+  }
+  .Testimonials__list--item p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
